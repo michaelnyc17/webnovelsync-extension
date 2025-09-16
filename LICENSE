@@ -1,19 +1,33 @@
-WebnovelSync Extension License
+Custom License for WebnovelSync Chrome Extension
 
-Copyright (c) 2024 Michael
+Copyright (c) 2025 Michael
 
 This code is provided for viewing and educational purposes only.
 
-RESTRICTIONS:
-- Redistribution is strictly prohibited
-- Modification is strictly prohibited  
-- Commercial use is strictly prohibited
-- Forking for anything other than viewing is prohibited
-- Creating derivative works is prohibited
-- No warranty is provided
+TERMS AND CONDITIONS:
 
-This software is provided "as is" without warranty of any kind, express or implied.
+1. VIEWING RIGHTS
+   You may view, read, and study this source code for educational, portfolio review, or reference purposes.
 
-For any permissions beyond viewing, contact: michaelnyc17@gmail.com
+2. RESTRICTIONS
+   You may NOT:
+   - Copy, reproduce, or distribute this code or any portion thereof
+   - Modify, adapt, or create derivative works
+   - Use this code for commercial purposes
+   - Publish or redistribute this code in any form
+   - Use this code in any other project or application
+   - Remove or alter this license notice
 
-All rights reserved.
+3. NO WARRANTIES
+   This code is provided "as is" without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, and non-infringement.
+
+4. LIABILITY
+   In no event shall the copyright holder be liable for any claim, damages, or other liability arising from the use or inability to use this code.
+
+5. PORTFOLIO PURPOSE
+   This repository exists solely for portfolio demonstration and code review purposes. It showcases technical skills and project capabilities.
+
+6. CONTACT
+   For permission requests or collaboration inquiries, please contact through GitHub.
+
+This license governs the use of the software contained in this repository. By accessing this repository, you agree to be bound by these terms.
