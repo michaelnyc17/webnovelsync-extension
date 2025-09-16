@@ -52,7 +52,7 @@ WebnovelSync is a browser extension I developed to solve the problem of manually
 
 ## Installation
 
-Install from the Chrome Web Store: https://chromewebstore.google.com/detail/webnovelsync/gnemgbbfllodlnbioibbgkfkbpblphne?authuser=0&hl=en
+Install from the [Chrome Web Store](https://chromewebstore.google.com/detail/webnovelsync/gnemgbbfllodlnbioibbgkfkbpblphne?authuser=0&hl=en)
 
 ## Usage
 
