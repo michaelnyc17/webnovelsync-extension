@@ -1,0 +1,72 @@
+{
+  "manifest_version": 3,
+  "name": "WebnovelSync",
+  "version": "1.8",
+  "description": "Sync webnovel and fanfiction chapters across 7 platforms.",
+  "permissions": [
+    "storage",
+    "alarms",
+    "scripting",
+    "tabs"
+  ],
+  "host_permissions": [
+    "https://*.webnovel.com/*",
+    "https://inkstone.webnovel.com/*",
+    "https://*.scribblehub.com/*",
+    "https://*.fanfiction.net/*",
+    "https://archiveofourown.org/*",
+    "https://*.royalroad.com/*",
+    "https://*.wattpad.com/*",
+    "https://*.inkitt.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://inkstone.webnovel.com/*"],
+      "js": ["inkstone_verification.js"],
+      "run_at": "document_end"
+    },
+    {
+      "matches": ["https://*.webnovel.com/*"],
+      "js": ["webnovel_signin_check.js"],
+      "run_at": "document_end"
+    },
+    {
+      "matches": ["https://*.scribblehub.com/*"],
+      "js": ["scribblehub_verification.js"],
+      "run_at": "document_end"
+    },
+    {
+      "matches": ["https://*.fanfiction.net/*"],
+      "js": ["fanfiction_verification.js"],
+      "run_at": "document_end"
+    },
+    {
+      "matches": ["https://archiveofourown.org/*"],
+      "js": ["ao3_verification.js"],
+      "run_at": "document_end"
+    },
+    {
+      "matches": ["https://*.royalroad.com/*"],
+      "js": ["royalroad_verification.js"],
+      "run_at": "document_end"
+    },
+    {
+      "matches": ["https://*.wattpad.com/*"],
+      "js": ["wattpad_verification.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "icons": {
+    "128": "icon.png"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self'"
+  }
+}
